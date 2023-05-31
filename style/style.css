@@ -12,9 +12,50 @@ nav{
 .container{
     max-width: 900px;
     width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
+.container-nav{
+    align-items: center;
+}
 .container-nav ul{
+    display: flex;
+    color: white;
+    list-style-type:none;
     padding: 1rem;
+}
+.container-nav li{
+    padding: .7rem
+}
+.container-nav img{
+    height: 30px;
+}
+.icon-nav{
+    width: 15px;
+    fill: white;
+}
+/* fine navbar */
+
+/* inizio main */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 900px;
+    width: 100%;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.col{
+    /* display: flex; */
+    /* width: 33%; */
+    /* column-gap: 15px; */
+}
+.col>img{
+    height: 100%;
+    width: 240px;
+    object-fit: cover;
+    
 }
