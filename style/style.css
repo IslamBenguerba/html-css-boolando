@@ -8,3 +8,13 @@ nav{
     background-color: #ff6900;
     width: 100%;
 }
+
+.container{
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container-nav ul{
+    padding: 1rem;
+}
