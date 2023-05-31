@@ -70,6 +70,7 @@ nav{
     object-fit: cover;
     
 }
+
 .heart-card{
     display: flex;
     justify-content: center;
@@ -116,4 +117,64 @@ nav{
 .sconto{
     display: inline-block;
     color: black;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+}
+.foot{
+    display: flex;
+    color: white;
+}
+
+.foot li{
+    list-style-type: none;
+    color: white;
+}
+footer{
+    background-color: #23272a;
+    padding-bottom: 35px;
+}
+.foot{
+    max-width: 900px;
+    padding-bottom: 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container-footer{
+    padding-top: 2rem;
+    align-items: flex-start;
+}
+.container-footer ul{
+    list-style-type: none;
+    color: #7188d9;
+    justify-content: center
+}
+.container-footer li{
+    color: white;
+}
+.container-footer h3{
+    color: #7188d9;
+}
+
+
+.icon{
+    width: 25px;
+}
+.color-icon{
+    fill: white;
+}
+.list-icon{
+    padding-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.list ul{
+    column-gap: 5px;
+    display: flex;
+}
+.list h6{
+    align-self: flex-start;
 }
