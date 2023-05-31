@@ -64,13 +64,22 @@ nav{
     /* width: 33%; */
     /* column-gap: 15px; */
 }
-.col>img{
+.images>img{
     height: 100%;
     width: 240px;
     object-fit: cover;
     
 }
+.back{
+    display: none;
+}
 
+.images:hover .front{
+    display: none;
+}
+.images:hover .back{
+    display: inline-block;
+}
 .heart-card{
     display: flex;
     justify-content: center;
@@ -154,10 +163,6 @@ footer{
 .container-footer li{
     color: white;
 }
-.container-footer h3{
-    color: #7188d9;
-}
-
 
 .icon{
     width: 25px;
