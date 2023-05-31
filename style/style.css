@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+nav{
+    background-color: #ff6900;
+    width: 100%;
+}
