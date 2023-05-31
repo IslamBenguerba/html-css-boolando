@@ -46,6 +46,7 @@ nav{
 }
 .center{
     margin-top: 15px;
+    margin-bottom: 90px;
 
 }
 .row{
@@ -177,6 +178,7 @@ footer{
 }
 
 .list ul{
+    padding: 0;
     column-gap: 5px;
     display: flex;
 }
