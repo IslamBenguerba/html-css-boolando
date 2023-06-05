@@ -24,6 +24,14 @@ nav{
     color: white;
     list-style-type:none;
     padding: 1rem;
+    
+}
+.container-nav a{
+    text-decoration: none;
+    color: white;
+}
+.container-nav a:hover{
+    color: #000000;
 }
 .container-nav li{
     padding: .7rem
@@ -47,6 +55,7 @@ nav{
 .center{
     margin-top: 15px;
     margin-bottom: 90px;
+    justify-content: space-between;
 
 }
 .row{
@@ -173,15 +182,37 @@ footer{
 }
 .list-icon{
     padding-top: 15px;
+    padding-left: 0px;
     display: flex;
     gap: 15px;
 }
 
 .list ul{
     padding: 0;
+    padding-top: 15px;
     column-gap: 5px;
     display: flex;
 }
+.list a{
+    text-decoration: none;
+    color: #7188d9;
+}
+.list a:hover{
+    font-size: 1.3rem;
+    color: #298288;
+}
 .list h6{
     align-self: flex-start;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: olive;
+    }
+    .container-footer{
+        flex-direction: column;
+    }
+    .container-nav ul{
+        flex-direction: column;
+    }
 }
